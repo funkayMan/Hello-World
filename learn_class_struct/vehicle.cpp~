@@ -1,0 +1,56 @@
+// program vehicle.cpp, implementation part,
+// compile without error, generating object file, do not run
+
+3.        #include "vehicle.h"
+
+4.         
+
+5.        // class implementation part
+
+6.        // initialize to data input by user
+
+7.        void  Cvehicle::initialize(int input_wheels, float input_weight)
+
+8.        {
+
+9.           wheels = input_wheels;
+
+10.         weight = input_weight;
+
+11.     }
+
+12.      
+
+13.     // get the number of wheels of this vehicle
+
+14.     int  Cvehicle::get_wheels()
+
+15.     {
+
+16.        return wheels;
+
+17.     }
+
+18.      
+
+19.     // return the weight of this vehicle
+
+20.     float Cvehicle::get_weight()
+
+21.     {
+
+22.        return  weight;
+
+23.     }
+
+24.      
+
+25.     // return the load on each wheel
+
+26.     float  Cvehicle::wheel_load()
+
+27.     {
+
+28.        return  (weight/wheels);
+
+29.     }

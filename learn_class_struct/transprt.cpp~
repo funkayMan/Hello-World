@@ -1,0 +1,48 @@
+// program transprt.cpp, the main program,
+// compile and run
+#include <iostream>
+using namespace std;
+#include "vehicle.h"
+// a user define header file and put it in the same folder as this program
+
+8.          
+
+9.        void main()
+
+10.      {
+
+11.           Cvehicle    car, motorcycle, truck, sedan_car;
+
+12.           // 4 objects instantiated
+
+13.          
+
+14.           // data initialization
+
+15.           car.initialize(4,3000.0);
+
+16.           truck.initialize(20,30000.0);
+
+17.           motorcycle.initialize(2,900.0);
+
+18.           sedan_car.initialize(4,3000.0);
+
+19.         
+
+20.          // display the data
+
+21.         cout<<"The car has "<<car.get_wheels()<< " tires.\n";
+
+22.         cout<<"Truck has load "<<truck.wheel_load()<<" kg per tire.\n";
+
+23.         cout<<"Motorcycle weight is  "<<motorcycle.get_weight()<<" kg.\n";
+
+24.         cout<<"Weight of sedan car is "<<sedan_car.get_weight()<<" kg, and has
+
+25.                                       "<<sedan_car.get_wheels()<<" tires.\n";
+
+26.       
+
+27.        // system("pause");
+
+28.     }

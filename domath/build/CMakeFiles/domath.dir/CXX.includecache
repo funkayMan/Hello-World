@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wookie/Documents/Clarkson_Grad_Work/PHD_work/Classes/Spectral_Element_Method/domath/canmath.cpp
+iostream
+-
+fstream
+-
+iostream
+-
+fstream
+-
+

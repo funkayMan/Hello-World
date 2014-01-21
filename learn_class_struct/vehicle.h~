@@ -1,0 +1,39 @@
+  // a class declaration part, vehicle.h, header file
+
+2.     // save and include this file in your next project
+
+3.     // do not compile or run
+
+4.      
+
+5.     #ifndef  VEHICLE_H   // preprocessor directive
+
+6.     #define  VEHICLE_H
+
+7.      
+
+8.     // class declaration part – the interface
+
+9.     class Cvehicle
+
+10.  {
+
+11.         protected:
+
+12.             int  wheels;
+
+13.             int  weight;
+
+14.         public:
+
+15.             void  initialize(int input_wheels, float  input_weight);
+
+16.             int   get_wheels(void);
+
+17.             float get_weight(void);
+
+18.             float wheel_load (void);
+
+19.  };
+
+20.  #endif

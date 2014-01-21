@@ -1,0 +1,23 @@
+
+
+#include<iostream>
+ 
+using namespace std;
+ 
+class junk
+{
+
+   public:
+       void hello_world()
+      {
+         cout << "Hello World!\n";
+      }
+ };
+ 
+main()
+{
+   junk object;
+ 
+   object.hello_world();
+   return 0;
+}

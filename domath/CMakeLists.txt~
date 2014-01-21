@@ -1,0 +1,4 @@
+project(domath)
+
+add_executable(domath main.cpp)
+
